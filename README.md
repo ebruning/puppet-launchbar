@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# LaunchBar Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+[LaunchBar](http://www.obdev.at/products/launchbar/index.html)
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include launchbar
 ```
 
 ## Required Puppet Modules
 
-* `boxen`
-* `anything-else`
+None
 
 ## Development
 
